@@ -1,0 +1,16 @@
+ARRANGE: ROW
+
+ORDER:
+  - 'DP-2'
+  - 'HDMI-1'
+  - '!.*DP-[0-9]'
+
+SCALE:
+  - NAME_DESC: eDP-1
+    SCALE: 1.25
+
+MODE:
+  - NAME_DESC: DP-2
+    WIDTH: 1920
+    HEIGHT: 1080
+    HZ: 144
