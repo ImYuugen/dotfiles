@@ -1,3 +1,5 @@
 [user]
 	name = Yuugen
 	email = yuugenssb@proton.me
+[pull]
+	rebase = true

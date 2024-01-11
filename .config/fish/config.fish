@@ -4,6 +4,7 @@ if status --is-login
   end
 end
 
+fish_add_path /home/yuugen/.cargo/bin
 
 set -gx EDITOR (which nvim)
 set -gx VISUAL $EDITOR
@@ -39,6 +40,9 @@ abbr gpl 'git pull'
 abbr gps 'git push'
 abbr gls 'git ls-files'
 abbr glog 'git log --oneline --graph'
+abbr gtma 'git tag -ma'
+abbr grpst 'git rev-parse --show-toplevel'
+abbr gtree 'ls -T --git-ignore -l --git'
 
 alias dotfiles 'git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 

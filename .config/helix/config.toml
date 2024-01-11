@@ -1,0 +1,27 @@
+theme = "catppuccin_mocha"
+
+[editor]
+auto-format = false
+auto-pairs = false
+line-number = "relative"
+mouse = false
+scrolloff = 5
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+
+[editor.whitespace.characters]
+space = "·" # Trailing PLEASE
+tab = "→"
+
+[editor.indent-guides]
+render = true
+character = "▏"
